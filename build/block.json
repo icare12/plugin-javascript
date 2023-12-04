@@ -1,0 +1,19 @@
+{
+  "apiVersion": 2,
+  "name": "chatgpt/chatgpt-form",
+  "title": "ChatGPT Form",
+  "category": "common",
+  "attributes": {
+    "align": {
+      "type": "string",
+      "default": "none"
+    }
+  },
+  "supports": {
+    "align": ["wide", "full"]
+  },
+  "editorScript": "file:./build/index.js",
+  "editorStyle": "file:./build/index.css",
+  "script": "file:./build/index.js",
+  "style": "file:./build/index.css"
+}

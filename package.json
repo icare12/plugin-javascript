@@ -1,0 +1,28 @@
+{
+  "name": "chatgpt-plugin",
+  "version": "0.1.0",
+  "description": "A WordPress plugin using ChatGPT",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "format": "wp-scripts format",
+    "lint:css": "wp-scripts lint-style",
+    "lint:js": "wp-scripts lint-js",
+    "packages-update": "wp-scripts packages-update",
+    "plugin-zip": "wp-scripts plugin-zip",
+    "start": "wp-scripts start"
+  },
+  "dependencies": {
+    "@wordpress/scripts": "^26.17.0",
+    "@wordpress/element": "^3.0.0",
+    "@wordpress/components": "^12.0.0",
+    "@wordpress/block-editor": "^5.0.0"
+
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0"
+    
+  },
+  "license": "GPL-2.0-or-later"
+}
+

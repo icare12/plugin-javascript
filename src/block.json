@@ -1,0 +1,25 @@
+{
+  "apiVersion": 2,
+  "name": "chatgpt/chatgpt-form",
+  "title": "ChatGPT Form",
+  "category": "common",
+  "icon": "editor-ul",
+  "attributes": {
+    "apiUrl": {
+      "type": "string",
+      "default": "https://api.openai.com/v1/chat/completions"
+    },
+    "apiKey": {
+      "type": "string",
+      "default": "YOUR_API_KEY" // Reemplaza con tu clave API real
+    },
+    "model": {
+      "type": "string",
+      "default": "gpt-3.5-turbo"
+    }
+   
+  },
+  "edit": "path/to/your/block-editor.js",
+  "save": "path/to/your/block-save.js"
+}
+
