@@ -46,5 +46,5 @@ This plugin is licensed under the GPL-2.0-or-later. See the [LICENSE](LICENSE) f
 
 ---
 
-**Author:** ai dev 
+**Author:** icar ochoa ennginer
 
